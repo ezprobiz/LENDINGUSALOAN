@@ -1,0 +1,154 @@
+.navbar-nav .nav-link {
+  transition: color 0.3s, transform 0.3s;
+}
+
+.navbar-nav .nav-link:hover{
+  color: #007bff;
+  transform: translateY(-2px);
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+  border-radius: 30px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.marquee {
+  display: none;
+}
+
+.carousel-caption {
+  position: relative;
+  top: 70%;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+.carousel-caption h5 {
+  font-size: 50px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  font-family: roboto;
+}
+.carousel-caption p {
+  font-size: 30px;
+  font-weight: 400;
+  font-family: roboto;
+}
+.main-card:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
+.about-loan {
+  padding: 30px 0px;
+}
+.loan-about {
+  padding: 0px 0px 30px 0px;
+}
+.about-loan-titel {
+  margin: 20px;
+  font-family: poppins;
+  font-size: 20px;
+}
+.about-col-titel h3 {
+  font-size: 22px;
+  font-family: poppins;
+}
+.about-col-titel p,
+.get-in-touch-titel p {
+  font-size: 18px;
+  font-family: poppins;
+  margin-top: 10px;
+}
+.get-in-touch-map {
+  width: 100%;
+  height: 400px;
+  margin-top: 20px;
+}
+.get-in-touch-map iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+.main-form {
+  padding: 30px 0px;
+}
+@media screen and (max-width: 991px) {
+  .marquee {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    text-align: center;
+    margin: 0px;
+    padding: 0px 0px 0px 0px;
+    background-color:#0d6dfde5;
+    width: 100%;
+    display: block;
+    text-transform: capitalize;
+  }
+  .carousel-caption h5 {
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-family: roboto;
+  }
+}
+.why-choose-us-col-2{
+  padding: 0px 0px !important;
+}
+@media screen and (max-width:991px) {
+  .why-choose-us-col-2{
+    padding:0px 50px !important;
+  }
+}
+.link ul li a{
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+.link ul li a:hover{
+  color: rgb(40, 64, 172);
+  text-decoration: none;
+}
+.link ul li{
+  padding: 10px 0px;
+}
+ .address::before {
+    content: "\f3c5"; /* Map Marker Alt icon */
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    margin-right: 8px;
+    color: #333;
+  }
+
+  .phone::before {
+    content: "\f095"; /* Phone icon */
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    margin-right: 8px;
+    color: #333;
+  }
+
+  .email::before {
+    content: "\f0e0"; /* Envelope icon */
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    margin-right: 8px;
+    color: #333;
+  }
+  .contact-data p{
+    padding: 10px 0px;
+    margin: 0px 0px;
+  }
+
